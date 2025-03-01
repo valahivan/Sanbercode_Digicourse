@@ -1,0 +1,16 @@
+.img-card{
+    height: 265px;
+}
+
+.film-card{
+    justify-content: start;
+}
+
+@media (max-width: 768px){
+    .img-card{
+        height: 300px;
+    }
+    .film-card{
+        justify-content: space-evenly;
+    }
+}
